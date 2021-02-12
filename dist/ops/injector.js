@@ -54,7 +54,7 @@ const injector = (action, content) => {
             lines.splice(idx, 0, body);
         }
     }
-    return lines.join('\n');
+    return lines.join(os_1.EOL);
 };
 exports.default = injector;
 //# sourceMappingURL=injector.js.map
